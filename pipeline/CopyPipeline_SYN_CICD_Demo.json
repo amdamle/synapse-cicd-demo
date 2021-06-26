@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_ebb",
+				"name": "Copy_Data_Act",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
