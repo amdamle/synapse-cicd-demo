@@ -1,0 +1,19 @@
+{
+	"name": "DestinationDataset_ebb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "syn-dev-cicddemo21-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "cicddevoutcntr"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
